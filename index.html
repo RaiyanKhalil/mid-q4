@@ -5,34 +5,36 @@
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-<div>
-  <table>
-    <th>
-      <div>
-        <table id="tb1">
-          <th>
-            <h2>Simple <br> Hangman</h2>
-          </th>
-          <th>
-            <p>Enter between 0 to 5</p>
-            <br>
-            <input type="number" id="num1">
-            <br>
-            <br>
-            <button>Play</button>
-          </th>
-        </table>
-      </div>
-    </th>
-    <th>
-      <input type="text" id="text1" name="Your Guess">
-      <span id="corrAns"></span>
-      <br>
-      <br>
-      <span id="corrAns2"></span>
-    </th>
-  </table>
-</div>
+    <div>
+      <table>
+        <!--Left Section-->
+        <th>
+          <div>
+            <table id="tb1">
+              <th>
+                <h2>Simple <br> Hangman</h2>
+              </th>
+              <th>
+                <p>Enter a number between 0 to 5</p>
+                <br>
+                <input type="number" id="num1">
+                <br>
+                <br>
+                <button id="pBtn">Play</button>
+              </th>
+            </table>
+          </div>
+        </th>
+        <!--Right Section-->
+        <th id="th1">
+          <input type="text" id="text1" name="Your Guess">
+          <span id="corrAns"></span>
+          <br>
+          <br>
+          <span id="corrAns2"></span>
+        </th>
+      </table>
+    </div>
 
       <!-- Your site content here -->
       <script src="jquery-3.3.1.min.js"></script>

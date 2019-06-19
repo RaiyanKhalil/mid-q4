@@ -1,4 +1,17 @@
 /* Add your styles here */
-.tb1{
-    text-align: left
+#tb1{
+    text-align: left;
+}
+
+#th1{
+    text-align: right;
+}
+
+button{
+    background-color: gray;
+
+}
+
+#corrAns2{
+    color: green
 }
